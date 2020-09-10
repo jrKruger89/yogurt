@@ -66,7 +66,7 @@ html {
     height: 3.5rem;
     margin: 20px auto 0;
     text-align: center;
-    font-size-adjust: 1.4rem;
+    font-size: 1.4rem;
     padding-top: 13px;
 }
 
@@ -166,6 +166,7 @@ html {
 }
 
 @media only screen and (min-width: 37.5rem) {
+    
     .page_footer {
         flex-direction: row;
         height: 12.5rem;
@@ -182,11 +183,12 @@ html {
 
     .offer {
         font-size: 1.7rem;
-        margin-top: 16px;
+        margin-top: 13px;
     }
 }
 
 @media only screen and (min-width: 53.438rem) {
+
     .ingredients_section,
     .quality_section {
         width: 50%;
